@@ -1,3 +1,29 @@
-git add README.md
-git commit -m "add README"
-git push
+🎮 AR 收集遊戲
+
+用手機相機在真實世界中抓取虛擬物件的互動遊戲。
+
+玩法
+
+
+用手機瀏覽器開啟網頁
+允許相機權限
+點擊畫面中漂浮的物件來收集
+30 秒內盡量多抓！
+
+
+技術
+
+
+純 HTML / CSS / JavaScript，不需要任何框架
+使用 getUserMedia API 取得手機相機畫面
+Canvas 繪製虛擬物件疊加在真實畫面上
+
+
+本地執行
+
+直接用瀏覽器開啟 index.html 即可（需要 HTTPS 或 localhost 才能使用相機）。
+
+開發紀錄
+
+
+v1.0 — 基本 AR 收集玩法，10 種物件，30 秒倒數計時
